@@ -13,6 +13,7 @@
 		07354FBA2B1755FA0002A85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07354FB92B1755FA0002A85A /* Preview Assets.xcassets */; };
 		07354FC12B17579B0002A85A /* RESTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07354FC02B17579B0002A85A /* RESTView.swift */; };
 		07354FC42B175B6A0002A85A /* RESTServer.py in Resources */ = {isa = PBXBuildFile; fileRef = 07354FC32B175B6A0002A85A /* RESTServer.py */; };
+		637317DC2B18413E004C35B2 /* WebsocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637317DB2B18413E004C35B2 /* WebsocketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		07354FB92B1755FA0002A85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07354FC02B17579B0002A85A /* RESTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTView.swift; sourceTree = "<group>"; };
 		07354FC32B175B6A0002A85A /* RESTServer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = RESTServer.py; sourceTree = "<group>"; };
+		637317DB2B18413E004C35B2 /* WebsocketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsocketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				07354FC02B17579B0002A85A /* RESTView.swift */,
+				637317DB2B18413E004C35B2 /* WebsocketView.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637317DC2B18413E004C35B2 /* WebsocketView.swift in Sources */,
 				07354FB52B1755F80002A85A /* ContentView.swift in Sources */,
 				07354FC12B17579B0002A85A /* RESTView.swift in Sources */,
 				07354FB32B1755F80002A85A /* SwiftNetworkRequestExamplesApp.swift in Sources */,
