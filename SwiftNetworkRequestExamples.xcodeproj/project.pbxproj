@@ -11,6 +11,8 @@
 		07354FB52B1755F80002A85A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07354FB42B1755F80002A85A /* ContentView.swift */; };
 		07354FB72B1755FA0002A85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07354FB62B1755FA0002A85A /* Assets.xcassets */; };
 		07354FBA2B1755FA0002A85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07354FB92B1755FA0002A85A /* Preview Assets.xcassets */; };
+		07354FC12B17579B0002A85A /* RESTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07354FC02B17579B0002A85A /* RESTView.swift */; };
+		07354FC42B175B6A0002A85A /* RESTServer.py in Resources */ = {isa = PBXBuildFile; fileRef = 07354FC32B175B6A0002A85A /* RESTServer.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		07354FB42B1755F80002A85A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07354FB62B1755FA0002A85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07354FB92B1755FA0002A85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07354FC02B17579B0002A85A /* RESTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTView.swift; sourceTree = "<group>"; };
+		07354FC32B175B6A0002A85A /* RESTServer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = RESTServer.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		07354FB12B1755F80002A85A /* SwiftNetworkRequestExamples */ = {
 			isa = PBXGroup;
 			children = (
+				07354FC52B175CC60002A85A /* Client */,
+				07354FC22B175B570002A85A /* Server */,
 				07354FB22B1755F80002A85A /* SwiftNetworkRequestExamplesApp.swift */,
 				07354FB42B1755F80002A85A /* ContentView.swift */,
 				07354FB62B1755FA0002A85A /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				07354FB92B1755FA0002A85A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07354FC22B175B570002A85A /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				07354FC32B175B6A0002A85A /* RESTServer.py */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		07354FC52B175CC60002A85A /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				07354FC02B17579B0002A85A /* RESTView.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07354FC42B175B6A0002A85A /* RESTServer.py in Resources */,
 				07354FBA2B1755FA0002A85A /* Preview Assets.xcassets in Resources */,
 				07354FB72B1755FA0002A85A /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07354FB52B1755F80002A85A /* ContentView.swift in Sources */,
+				07354FC12B17579B0002A85A /* RESTView.swift in Sources */,
 				07354FB32B1755F80002A85A /* SwiftNetworkRequestExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
